@@ -5,3 +5,5 @@
 ### 1.2 Chute um Número
 ### 1.3 Pedra, Papel e Tesoura
 ### 1.4 Gerenciador de Senhas
+
+## 2. JavaScript
