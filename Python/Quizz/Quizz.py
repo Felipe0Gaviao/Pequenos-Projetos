@@ -1,19 +1,27 @@
 print("Bem vindo ao Quizz")
 
 iniciar_jogo = input("Você gostaria de jogar? ")
+pontos = 0
+q_contar = 0
 
-if iniciar_jogo == "sim":
+if iniciar_jogo.lower() == "sim":
     print("Okay, então vamos começar o jogo")
 else:
     quit()
 
 def questao(pergunta,resposta):
 
+    global pontos
+    global q_contar
+
+    q_contar += 1
+
     user = input(f'{pergunta}\n')
     resposta = str(resposta)
 
-    if user == resposta:
+    if user.lower() == resposta.lower():
         print(f'Acertou! A resposta é {resposta}')
+        pontos += 1
     else:
         print(f'Errou! A resposta certa era {resposta}')
 
@@ -27,3 +35,5 @@ questao("Qual metal foi descoberto por Hans Christian Oersted em 1825?","alumín
 questao("Qual é a capital de Portugal?","Lisboa")
 questao("Quantas respirações o corpo humano toma diariamente?","20,000 diariamente")
 questao("Quem foi o primeiro-ministro da Grã-Bretanha de 1841 a 1846?","Robert Peel")
+print(f"você acertou {pontos} Questões!")
+print(f"Acertou {(pontos/q_contar)*100}% das questões")
