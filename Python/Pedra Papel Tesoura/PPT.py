@@ -15,17 +15,17 @@ while True:
 
         print(f"sua escolha: {jog_escolha} \ncomputador: {comp_escolha}")
         
-        if jog_escolha == 'q':
-            print(f"Foi um bom jogo\nVocê fez {jog_pontos} {'ponto' if jog_pontos == 1 else 'pontos'}\nO computador fez {comp_pontos} {'ponto' if comp_pontos == 1 else 'pontos'}")
-            break
-
-        if jog_escolha == comp_escolha:
-            print("EMPATE!!!")
-        elif vitoria[jog_escolha] == comp_escolha:
-            print("Você Venceu!")
-            jog_pontos+=1
-        else:
-            print("O Computador Venceu!")
-            comp_pontos+=1
+        match jog_escolha,comp_escolha:
+            case (jog,comp) if jog == 'q':
+                print(f"Foi um bom jogo\nVocê fez {jog_pontos} {'ponto' if jog_pontos == 1 else 'pontos'}\nO computador fez {comp_pontos} {'ponto' if comp_pontos == 1 else 'pontos'}")
+                break
+            case (jog,comp) if jog == comp:
+                print("EMPATE!!!")
+            case (jog,comp) if vitoria[jog] == comp:
+                print("Você Venceu!")
+                jog_pontos+=1
+            case _:
+                print("O Computador Venceu!")
+                comp_pontos+=1
     else:
         jog_escolha = input(f"{jog_escolha} não é uma opção válida, tente novamente: ")
