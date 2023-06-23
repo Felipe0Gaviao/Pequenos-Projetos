@@ -7,7 +7,7 @@ def ver():
         for lines in file.readlines():
             info = lines.rstrip('\n')
             us,sn = info.split(' | ')
-            print(f"{us}\n{sn}")
+            print(f"{us}, {sn}")
 
 def add():
     nome = input("Nome da conta:\n")
