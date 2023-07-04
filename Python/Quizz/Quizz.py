@@ -11,8 +11,7 @@ else:
 
 def questao(pergunta,resposta):
 
-    global pontos
-    global q_contar
+    global pontos, q_contar
 
     q_contar += 1
 
