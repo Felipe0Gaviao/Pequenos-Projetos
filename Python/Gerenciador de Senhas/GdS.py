@@ -18,7 +18,7 @@ fer = Fernet(chave_m)
 
 def ver():
 
-    print("abrindo arquivo....git")
+    print("abrindo arquivo....")
     with open('Python\Gerenciador de Senhas\contas.txt','r') as file:
         for lines in file.readlines():
             info = lines.rstrip('\n')
