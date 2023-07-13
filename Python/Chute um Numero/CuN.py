@@ -16,5 +16,5 @@ while escolha != numero_aleatorio:
 
     escolha = digito(input("Tente novamente: "))
 else:
-    print(f"Parabéns, você acertou")
+    print(f"Parabéns, você acertou!")
     print(f"você tentou chutar {tentativas} {'vez' if tentativas == 1 else 'vezes'} antes de acertar")
