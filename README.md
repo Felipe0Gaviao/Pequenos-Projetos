@@ -1,7 +1,7 @@
 # Pequenos Projetos
 
 ## 1. Python
-### 1.1 Quizz :
+### 1.1 [Quizz](/Python/Quizz/Quizz.py) :
 #### Um Quizz Simples que recebe algumas questões + respostas e imprime no terminal um texto especifico dependendo de se o usuário acertou ou não.
 ### 1.2 Chute um Número :
 #### O uruário escolhe um número máximo, enquanto o minimo é sempre zero, o usuário chuta números até acertar qual é o número aleatorio escolhido, para facilitar o jogo, o computador esplica se o chute do usuário está abaixo ou acima do número esperado
