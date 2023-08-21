@@ -15,4 +15,4 @@
 ### 1.5 [Gerenciador de Tarefas](/Python/Gerenciador%20de%20Tarefas/GdT.py):
 #### Gerenciador de tarefas que armazena a lista em um arquivo JSON, fiz para testar como funciona modificação e leitura de arquivos em Python.
 
-## 2. JavaScript
+## 2. [JavaScript](/)
