@@ -2,16 +2,16 @@ from cryptography.fernet import Fernet
 
 def criar_chave():
     chave = Fernet.generate_key()
-    with open("Python\Gerenciador de Senhas\chave.key", "wb") as arc_chave:
+    with open(".\\Gerenciador de Senhas\\chave.key", 'wb') as arc_chave:
         arc_chave.write(chave)
 
+
 def carregar_chave():
-    arc = open("Python\Gerenciador de Senhas\chave.key", "rb")
-    ch = arc.read()
-    arc.close
+    with open(".\\Gerenciador de Senhas\\chave.key", 'rb') as arc:
+        ch = arc.read()
     return ch
 
-
+criar_chave()
 chave_m = carregar_chave()
 fer = Fernet(chave_m)
 
