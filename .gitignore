@@ -1,6 +1,6 @@
 contas.txt
 chave.key
 main.py
-venv_Pequenos_Projetos/
+env/
 Pequenos-Projetos.code-workspace
 .gitconfig
