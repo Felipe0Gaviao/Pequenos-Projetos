@@ -1,10 +1,9 @@
 print("Bem vindo ao Quizz")
 
-iniciar_jogo = input("Você gostaria de jogar? ")
 pontos = 0
 q_contar = 0
 
-if iniciar_jogo.lower() == "sim":
+if input("Você gostaria de jogar? ").lower() == "sim":
     print("Okay, então vamos começar o jogo")
 else:
     quit()
