@@ -7,7 +7,7 @@ def digito(x:str):
 numero_maximo = digito(input("digite um número: "))
 numero_aleatorio = random.randint(0,numero_maximo)
 tentativas = 0
-escolha = digito(input(f"Chute um número entre 0 e {numero_maximo}: "))
+escolha = digito(input(f"Chute um número entre 1 e {numero_maximo}: "))
 
 while escolha != numero_aleatorio:
     tentativas += 1
