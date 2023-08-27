@@ -9,3 +9,5 @@
 #### Pedra papel e tesoura, fiz para tentar entender uma forma diferente de criar esse tipo de jogo sem ter q usar vários `if else` toda vez que tivesse que checar quem ganhou.
 ### 1.4 [Gerenciador de Tarefas](/Python/gerenciador-de-tarefas/GdT.py):
 #### Gerenciador de tarefas que armazena a lista em um arquivo JSON, fiz com o objetivo de testar como funciona modificação e leitura de arquivos em Python.
+### 1.5 [Jogo da Velha](/Python/jogo-da-velha/JdV.py):
+#### Jogo da velha simples usando python e a biblioteca que já vem instalada com ele: Tkinter.
