@@ -11,3 +11,5 @@
 #### Gerenciador de tarefas que armazena a lista em um arquivo JSON, fiz com o objetivo de testar como funciona modificação e leitura de arquivos em Python.
 ### 1.5 [Jogo da Velha](/Python/jogo-da-velha/main.py):
 #### Jogo da velha simples usando python e a biblioteca que já vem instalada com ele: Tkinter.
+### 1.5 [Advinhe a Palavra (inglês)](/Python/word-guessing-game/main.py):
+#### Jogo de Adivinhar uma palavra, as palavras estão em inglês
