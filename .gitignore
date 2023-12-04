@@ -1,4 +1,5 @@
 # Python
-main.py
-env/
 Pequenos-Projetos.code-workspace
+venv
+Teste/
+.vscode
