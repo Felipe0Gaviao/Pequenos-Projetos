@@ -12,4 +12,6 @@
 ### 1.5 [Jogo da Velha](/Python/jogo-da-velha/main.py):
 #### Jogo da velha simples usando python e a biblioteca que já vem instalada com ele: Tkinter.
 ### 1.5 [Advinhe a Palavra (inglês)](/Python/word-guessing-game/main.py):
-#### Jogo de Adivinhar uma palavra, as palavras estão em inglês
+#### Jogo de Adivinhar uma palavra, ele escolhe ,aleatóriamente, uma palavra que foi puxada do arquivo [words.txt](/Python/word-guessing-game/words.txt) que contêm 1000 palavras em inglês, o jogador tem 12 turnos para acertar qual das 1000 palavras foi escolhida.
+
+##### Essa lista de palavras foi coletada deste link: https://gist.github.com/cjhveal/3753018
