@@ -15,3 +15,6 @@
 #### Jogo de Adivinhar uma palavra, ele escolhe ,aleatóriamente, uma palavra que foi puxada do arquivo [words.txt](/Python/word-guessing-game/words.txt) que contêm 1000 palavras em inglês, o jogador tem 12 turnos para acertar qual das 1000 palavras foi escolhida.
 
 ##### Essa lista de palavras foi coletada deste link: https://gist.github.com/cjhveal/3753018
+
+### 1.6 [Dice Roller](/Python/dice-roller/main.py):
+#### um Dice roller feito usando [Custom Tkinter](https://pypi.org/project/customtkinter/), uma versão mais moderna do [Tkinter](https://docs.python.org/3/library/tkinter.html).
